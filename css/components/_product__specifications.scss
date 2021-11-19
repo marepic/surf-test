@@ -1,0 +1,46 @@
+.product__specifications {
+    display: flex;
+    position: relative;
+
+    &:hover .dropdown__menu {
+        left: rem(90px);
+        top: 0;
+        right: 0;
+    }
+}
+
+.specification__btn {
+    width: rem(91px);
+    height: rem(91px);
+    background: #3A587E;
+    border-radius: rem(4px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+
+    &:hover {
+        background: #3465A3;
+        ;
+    }
+
+    @include tablets {
+        display: none;
+    }
+}
+
+.specification__icon {
+    width: rem(38px);
+    height: rem(38px);
+    margin-top: rem(17px);
+}
+
+.specification__text {
+    padding-top: rem(7px);
+    margin-bottom: rem(12px);
+    color: #fff;
+    font-size: rem(14px);
+    line-height: rem(17px);
+    text-transform: uppercase;
+}

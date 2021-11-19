@@ -1,0 +1,31 @@
+.btn {
+  font-size: rem(18px);
+  font-weight: 800;
+  padding: rem(21px) rem(41px);
+  font-family: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: rem(100px);
+  line-height: rem(18px);
+  text-decoration: none;
+  background: $yellow;
+  border: none;
+  color:#000000;
+
+  &:hover {
+    background: #FFD517 ;
+  }
+
+  &--theme--transparent {
+    background: transparent;
+    color: #fff;
+    font-weight: normal ;
+    text-transform: none;
+    padding-left: rem(22px);
+
+    &:hover {
+      background: transparent;
+      color: #FEDB3F;
+    }
+  }
+}

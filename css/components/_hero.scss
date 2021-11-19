@@ -1,0 +1,54 @@
+.hero__section {
+  background: url(../img/hello__back.png) no-repeat top center;
+  color: #fff;
+  background-size: cover;
+  padding: 0 0 rem(68px);
+
+  @include tablets {
+      background-position: center right 19%;
+  }
+}
+
+.hero__title-section {
+  width: 42%;
+  
+  @include tablets {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.hero__icons-section {
+  @include tablets {
+    display: none;
+  }
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hero__main-title {
+  font-size: rem(48px);
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: rem(15px);
+  text-transform: uppercase;
+
+  @include phones {
+    font-size: rem(40px);
+  }
+}
+
+.hero__title-desc {
+  font-size: rem(21px);
+  margin-bottom: rem(58px);
+}
