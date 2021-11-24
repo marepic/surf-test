@@ -392,6 +392,7 @@ img {
 
 .products__section {
   background: #F8FAF9;
+  color: black;
 }
 
 .product__container {
@@ -640,6 +641,10 @@ img {
   height: 1.3333333333rem;
 }
 
+.team-section {
+  color: black;
+}
+
 .team {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -827,6 +832,10 @@ img {
   display: none;
 }
 
+.benefit__section {
+  color: black;
+}
+
 .benefit {
   text-align: center;
 }
@@ -870,6 +879,10 @@ img {
 
 .benefit__desc {
   color: #666;
+}
+
+.reviews__section {
+  color: black;
 }
 
 .reviews__display {
@@ -1127,6 +1140,7 @@ img {
 
 .player-section {
   background: #F8FAF9;
+  color: black;
 }
 
 .player__container {
@@ -1645,6 +1659,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: black;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
