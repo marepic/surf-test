@@ -5,6 +5,7 @@ $baseFontSize: 18px;
 
 $tablets: 768px;
 $phones: 480px;
+$iphone: 375px;
 
 //colors
 $yellow:#FEDB3F;
@@ -42,6 +43,8 @@ $z-fixed-menu: 100;
 @import "components/_benefit";
 @import "components/_reviews";
 @import "components/_interactive-avatar";
+@import "components/_acco";
+@import "components/_player";
 @import "components/_order-section";
 @import "components/_form";
 @import "components/_radio";
@@ -50,4 +53,3 @@ $z-fixed-menu: 100;
 @import "components/_footer";
 @import "components/_socials";
 @import "components/_modal";
-

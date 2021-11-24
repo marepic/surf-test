@@ -5,13 +5,16 @@
   z-index: $z-fixed-menu;
 }
 
+.fixed-menu--shadowed {
+  color: $black;
+}
+
 .fixed-menu__item {
   margin-bottom: rem(5px);
 
   &--active {
     .fixed-menu__link {
-      border-color: #fff;
-
+      background: currentColor;
     }
   }
 }
@@ -24,13 +27,17 @@
   display: block;
   position: relative;
 
+  &:hover {
+    background: currentColor;
+  }
+
   &::before {
     content: "";
     display: block;
     width: rem(6px);
     height: rem(6px);
     border-radius: 50%;
-    background: #fff;
+    background: currentColor;
     position: absolute;
     top: 50%;
     left: 50%;
