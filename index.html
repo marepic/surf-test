@@ -15,7 +15,7 @@
 <body>
   <div class="wrapper">
     <div class="maincontent">
-      <section class="section hero__section" data-section-id="hero">
+      <section class="section hero__section" data-sidemenu-theme="white" data-section-id="hero">
         <header class="header">
           <div class="container header__container">
             <img src="./img/logo.png" alt="" class="logo">
@@ -721,19 +721,6 @@
       </div>
     </div>
   </div>
-  <nav class="fixed-menu">
-    <ul class="fixed-menu__list">
-      <li class="fixed-menu__item fixed-menu__item--active"><a href="#" data-scroll-to="hero" class="fixed-menu__link"></a></li>
-      <li class="fixed-menu__item"><a href="#" data-scroll-to="benefits" class="fixed-menu__link"></a></li>
-      <li class="fixed-menu__item"><a href="#" data-scroll-to="products" class="fixed-menu__link"></a></li>
-      <li class="fixed-menu__item"><a href="#" data-scroll-to="team" class="fixed-menu__link"></a></li>
-      <li class="fixed-menu__item"><a href="#" data-scroll-to="products-menu" class="fixed-menu__link"></a></li>
-      <li class="fixed-menu__item"><a href="#" data-scroll-to="reviews" class="fixed-menu__link"></a></li>
-      <li class="fixed-menu__item"><a href="#" data-scroll-to="player" class="fixed-menu__link"></a></li>
-      <li class="fixed-menu__item"><a href="#" data-scroll-to="order" class="fixed-menu__link"></a></li>
-      <li class="fixed-menu__item"><a href="#" data-scroll-to="map" class="fixed-menu__link"></a></li>
-    </ul>
-  </nav>
   <div class="fullscreen-menu active">
     <a href="#" class="fullscreen-menu__close">
       <svg class="hamburger__icon">
@@ -766,13 +753,28 @@
       </ul>
     </nav>
   </div>
+  <nav class="fixed-menu">
+    <ul class="fixed-menu__list">
+      <li class="fixed-menu__item fixed-menu__item--active"><a href="#" data-scroll-to="hero" class="fixed-menu__link"></a></li>
+      <li class="fixed-menu__item"><a href="#" data-scroll-to="benefits" class="fixed-menu__link"></a></li>
+      <li class="fixed-menu__item"><a href="#" data-scroll-to="products" class="fixed-menu__link"></a></li>
+      <li class="fixed-menu__item"><a href="#" data-scroll-to="team" class="fixed-menu__link"></a></li>
+      <li class="fixed-menu__item"><a href="#" data-scroll-to="products-menu" class="fixed-menu__link"></a></li>
+      <li class="fixed-menu__item"><a href="#" data-scroll-to="reviews" class="fixed-menu__link"></a></li>
+      <li class="fixed-menu__item"><a href="#" data-scroll-to="player" class="fixed-menu__link"></a></li>
+      <li class="fixed-menu__item"><a href="#" data-scroll-to="order" class="fixed-menu__link"></a></li>
+      <li class="fixed-menu__item"><a href="#" data-scroll-to="map" class="fixed-menu__link"></a></li>
+    </ul>
+  </nav>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="./scripts/menu.js"></script>
-  <script src="./scripts/tabs.js"></script>
-  <script src="./scripts/team.js"></script>
+  <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+  <script src="./scripts/menu.js"></script>
+  <script src="./scripts/tabs.js"></script>
+  <script src="./scripts/team.js"></script>
   <script src="./scripts/slider.js"></script>
   <script src="https://www.youtube.com/iframe_api"></script>
   <script src="./scripts/player.js"></script>
