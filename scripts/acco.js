@@ -49,7 +49,7 @@
             });
 
             document.addEventListener("click", e => {
-                e.preventDefault();
+                //e.preventDefault();
                 let activePerson = document.querySelector(".menu-acco__item.active");
                 const target = e.target;
                 // console.log(target);

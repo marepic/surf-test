@@ -126,19 +126,16 @@
 
     if (isMobile) {
         // https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
-        $(function () {
-            $("body").swipe({
-                swipe: function (event, direction) {
-                    const scroller = viewportScroller();
-                    let scrollDirection = "";
-                    if (direction === "up") scrollDirection = "next";
-                    if (direction === "down") scrollDirection = "prev";
-                    if(scrollDirection !== ""){
-                        scroller[scrollDirection]();
+        $("body").swipe({
+            swipe: function (event, direction) {
+                const scroller = viewportScroller();
+                let scrollDirection = "";
 
-                    }
-                },
-            });
+                if (direction === "up") scrollDirection = "next";
+                if (direction === "down") scrollDirection = "prev";
+                
+                    scroller[scrollDirection]();
+            },  
         });
     }
 }());

@@ -32,6 +32,11 @@
   margin-right: rem(22px);
   margin-bottom: 10px;
 
+  &:hover {
+    transition: .5s;
+    color: #FFD517 ;
+  }
+
   &:last-child {
     margin-right: 0;
   }
@@ -69,4 +74,5 @@
 .menu__link {
   text-decoration: none;
   white-space: nowrap;
+
 }

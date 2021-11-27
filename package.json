@@ -1,0 +1,31 @@
+{
+  "name": "surf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marepic/surf-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marepic/surf-test/issues"
+  },
+  "homepage": "https://github.com/marepic/surf-test#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rm": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.5"
+  },
+  "dependencies": {
+    "jquery-touchswipe": "^1.6.19",
+    "normalize.css": "^8.0.1"
+  }
+}

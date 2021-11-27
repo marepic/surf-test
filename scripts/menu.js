@@ -11,6 +11,6 @@
         body.classList.toggle('body-active-menu');
     }
 
+    menu.addEventListener('click', _toggleMenu)
     button.addEventListener('click', _toggleMenu)
-    buttonClose.addEventListener('click', _toggleMenu)
 }());

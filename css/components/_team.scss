@@ -1,4 +1,4 @@
-.team-section {
+.team__section {
     color: black;
 }
 
@@ -13,6 +13,10 @@
     margin-right: rem(20px);
     max-width: rem(222px);
     position: relative;
+
+    &:last-child {
+        margin-right: 0;
+    }
 
     @include tablets {
         margin-bottom: rem(17px);

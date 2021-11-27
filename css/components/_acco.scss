@@ -36,6 +36,7 @@
         }
 
     @include iphone {
+        width: 18%;
         &.active {
             width: 84%;
         }
